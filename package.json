@@ -14,7 +14,7 @@
     "vite": "^4.3.0"
   },
   "dependencies": {
-    "ar-catch": "^0.0.10",
+    "ar-catch": "^0.0.11",
     "path": "^0.12.7"
   }
 }
