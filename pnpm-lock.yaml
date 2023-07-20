@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   ar-catch:
-    specifier: ^0.0.11
-    version: 0.0.11(typescript@5.0.4)
+    specifier: ^0.0.13
+    version: 0.0.13(typescript@5.0.4)
   path:
     specifier: ^0.12.7
     version: 0.12.7
@@ -227,8 +227,8 @@ packages:
     resolution: {integrity: sha512-BsAaKhB+7X+H4GnSjGhJG9Qi8Tw+inU9nJDwmD5CgOmBLEI6ArdhikpLX7DjbjDRDTbqZzU2LSQNZg8WGPiSZQ==}
     dev: true
 
-  /ar-catch@0.0.11(typescript@5.0.4):
-    resolution: {integrity: sha512-3/lje9WObXVJPpoTTmeAdGlq7k+1Bk6SCJpD8v1vl4YPfOZSyJznPgCMNEQ+AER8KfZ1+lUfmLG8aBO4XW3gng==}
+  /ar-catch@0.0.13(typescript@5.0.4):
+    resolution: {integrity: sha512-UqSGbk6YzmOdIwUA7LrA5DSEdiqwMcFp0ELNC348hiY9ebNSIsEoUkSQJLZ6IdAeRvZDvVRx7sSakojS86FaxA==}
     peerDependencies:
       typescript: ^5.0.2
     dependencies:

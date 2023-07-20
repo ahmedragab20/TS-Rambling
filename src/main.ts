@@ -38,6 +38,7 @@ const button = document.querySelector("#trigger")!;
 button.addEventListener("click", async () => {
   const res = await useCatch("products/search", {
     customOptions: {
+      cache: "RELOAD",
       useWithBaseURL: true,
     },
     body: {
