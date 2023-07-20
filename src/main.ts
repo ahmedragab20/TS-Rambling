@@ -36,13 +36,13 @@ const useCatch = $catch({
 const button = document.querySelector("#trigger")!;
 
 button.addEventListener("click", async () => {
-  const res = await useCatch("products/search",{
+  const res = await useCatch("products/search", {
     customOptions: {
       useWithBaseURL: true,
     },
     body: {
       q: "iphone",
-    }
+    },
   });
 
   console.log({ res });
